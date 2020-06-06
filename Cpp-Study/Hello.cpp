@@ -7,6 +7,8 @@ using namespace std;
 */
 int main()
 {
+	int a = 10;//变量的声明： 数据类型 变量名=初始值
+	cout << "a=" << a << endl;
 	cout << "hello world" << endl; //在控制台中输出hello world
 	system("pause");
 	return 0;
