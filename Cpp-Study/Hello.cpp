@@ -4,7 +4,7 @@ using namespace std;
 #define Day 7  //宏常量
 
 /*
-    main是一个程序的入口
+	main是一个程序的入口
 	每个程序都必须有且只有一个这个函数
 */
 int main()
@@ -67,6 +67,14 @@ int main()
 	cout << "f2=" << f2 << endl;
 	double d2 = 3e-2;
 	cout << "d2=" << d2 << endl;
+
+	/*字符型*/
+	char ch = 'a';
+	cout << ch << endl;
+	cout << "char占用内存空间为：" << sizeof(char) << "字节" << endl;
+
+	//字符型变量对应的ASCII编码
+	cout << (int)ch << endl;
 
 	cout << "hello world" << endl; //在控制台中输出hello world
 	system("pause");
