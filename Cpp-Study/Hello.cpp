@@ -47,6 +47,27 @@ int main()
 	cout << "short占用内存空间为：" << sizeof(short) << "字节" << endl;
 	cout << "变量num4占用内存空间为：" << sizeof(num4) << "字节" << endl;
 
+	/*实型（浮点型）*/
+	//1.单精度 float
+	float f1 = 3.1415926f;
+
+	//2.双精度 double
+	double d1 = 3.1415926;
+
+	//默认情况下 输出一个小数最多显示6位有效数字
+	cout << "f1=" << f1 << endl;
+	cout << "d1=" << d1 << endl;
+
+	//统计float和double占用内存空间
+	cout << "float占用内存空间为：" << sizeof(float) << "字节" << endl;
+	cout << "double占用内存空间为：" << sizeof(double) << "字节" << endl;
+
+	//科学计数法
+	float f2 = 3e2f;
+	cout << "f2=" << f2 << endl;
+	double d2 = 3e-2;
+	cout << "d2=" << d2 << endl;
+
 	cout << "hello world" << endl; //在控制台中输出hello world
 	system("pause");
 	return 0;
