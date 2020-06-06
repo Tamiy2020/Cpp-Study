@@ -94,6 +94,16 @@ int main()
 	string str1 = str;
 	cout << str1 << endl;
 
+	/*布尔类型*/
+	bool flag = true;
+	cout << flag << endl;
+	
+	flag = false;
+	cout << flag << endl;
+	//本质上 1代表真 0代表假
+
+	cout << "bool占用内存空间为：" << sizeof(bool) << "字节" << endl;
+
 	cout << "hello world" << endl; //在控制台中输出hello world
 	system("pause");
 	return 0;
