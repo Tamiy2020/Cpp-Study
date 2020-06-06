@@ -1,4 +1,5 @@
-#include <iostream>
+#include <iostream> //#include 包含头文件
+#include <string>
 using namespace std;
 
 #define Day 7  //宏常量
@@ -75,18 +76,23 @@ int main()
 
 	//字符型变量对应的ASCII编码
 	cout << (int)ch << endl;
-	
+
 	/*转义字符*/
 	//换行符\n
 	cout << "hello world\n";
 
 	//反斜杆
-	cout << "\\"<<endl;
+	cout << "\\" << endl;
 
 	//水平制表符\t
 	cout << "你好呀\tc++" << endl;
 	cout << "你好\tc++" << endl;
 	cout << "hello\tc++" << endl;
+
+	/*字符串型*/
+	char str[] = "hello world";
+	string str1 = str;
+	cout << str1 << endl;
 
 	cout << "hello world" << endl; //在控制台中输出hello world
 	system("pause");
