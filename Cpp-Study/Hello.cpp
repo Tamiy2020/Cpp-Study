@@ -40,6 +40,13 @@ int main()
 	cout << "num3=" << num3 << endl;
 	cout << "num4=" << num4 << endl;
 
+	/*
+	sizeof关键字可以求出数据类型占用内存大小
+	sizeof(数据类型/变量)
+	*/
+	cout << "short占用内存空间为：" << sizeof(short) << "字节" << endl;
+	cout << "变量num4占用内存空间为：" << sizeof(num4) << "字节" << endl;
+
 	cout << "hello world" << endl; //在控制台中输出hello world
 	system("pause");
 	return 0;
