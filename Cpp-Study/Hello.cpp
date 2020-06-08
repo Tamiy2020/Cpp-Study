@@ -111,6 +111,53 @@ int main()
 	cin >> i;
 	cout << "整型变量a=" << i << endl;
 
+	/*选择语句*/
+	//单行if语句
+	if (i>100)
+	{
+		cout << "恭喜"  << endl;
+	}
+
+	cout << "=====================分割线============================" << endl;
+
+	//多行if语句
+	if (i>100)
+	{
+		cout << "恭喜" << endl;
+	}
+	else
+	{
+		cout << "遗憾" << endl;
+	}
+
+	cout << "=====================分割线============================" << endl;
+
+	//多条件if语句
+	if (i>=90)
+	{
+		//嵌套if语句
+		if (i>95)
+		{
+			cout << "A++ Level" << endl;
+		}
+		else
+		{
+			cout << "A Level" << endl;
+		}
+	}
+	else if (i>=80)
+	{
+		cout << "B Level" << endl;
+	}
+	else if (i>=60)
+	{
+		cout << "C Level" << endl;
+	}
+	else
+	{
+		cout << "D Level" << endl;
+	}
+	
 	cout << "hello world" << endl; //在控制台中输出hello world
 	system("pause");
 	return 0;
